@@ -19,6 +19,9 @@ public class CampaignCalculate {
      * Calculates the total budget required given the current ad budget, agency fee, tool fee,
      * agency hours, and other ad budgets.
      *
+     * Time Complexity: O(N)
+     * Space Complexity: O(1)
+     *
      * @param currX            the current budget allocated to a specific ad
      * @param agencyFee        the percentage of the budget allocated for agency fees
      * @param toolFee          the percentage of the budget allocated for tool fees
@@ -51,6 +54,9 @@ public class CampaignCalculate {
      * Finds the maximum budget that can be allocated to a specific ad without exceeding
      * the total budget allocated for the campaign. The method uses a binary search algorithm to find
      * the maximum possible budget for the ad that fits within the given constraints.
+     *
+     * Time Complexity: O(N * Log(totalBudgetAllocated)
+     * Space Complexity: O(1)
      *
      * @param totalBudgetAllocated   the total budget allocated for the campaign
      * @param agencyFee              the percentage of the budget allocated for agency fees
@@ -90,6 +96,9 @@ public class CampaignCalculate {
 
     /**
      * Calculates the maximum budget that can be allocated to a specific ad based on the campaign model and existing ads.
+     *
+     * Time Complexity: O(N)
+     * Space Complexity: O(N)
      *
      * @param campaignModel  the campaign model containing budget and fee information
      * @param ads            the ads model containing ad names and budgets
