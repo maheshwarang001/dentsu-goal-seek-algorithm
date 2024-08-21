@@ -97,8 +97,6 @@ public class CampaignCalculate {
     /**
      * Calculates the maximum budget that can be allocated to a specific ad based on the campaign model and existing ads.
      *
-     * Time Complexity: O(N)
-     * Space Complexity: O(N)
      *
      * @param campaignModel  the campaign model containing budget and fee information
      * @param ads            the ads model containing ad names and budgets
